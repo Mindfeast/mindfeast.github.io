@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="FTbmq-f0E2dXFVGgxjdSD7MCoPNyfisxaTOJVMmfbuc" />
+<title>BUNKR</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --border: #222222;
+    --accent: #c8f55a;
+    --text: #e8e8e0;
+    --muted: #666660;
+    --mono: 'Space Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .logo-icon {
+    width: 48px;
+    height: 48px;
+    border: 1.5px solid var(--accent);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+  }
+
+  .logo-icon svg { width: 22px; height: 22px; fill: var(--accent); }
+
+  .logo {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-family: var(--mono);
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    color: var(--accent);
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a3a0a;
+    padding-bottom: 2px;
+  }
+
+  a:hover { border-color: var(--accent); }
+</style>
+</head>
+<body>
+
+  <div class="logo-icon">
+    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="7" width="12" height="8" rx="1.5"/>
+      <path d="M5 7V5a3 3 0 0 1 6 0v2" stroke="#0a0a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <circle cx="8" cy="11" r="1.2" fill="#0a0a0a"/>
+    </svg>
+  </div>
+
+  <div class="logo">BUNKR</div>
+  <p>Local-first password manager</p>
+  <a href="/bunkr-privacy/privacy.html">Privacy Policy</a>
+
+</body>
+</html>
