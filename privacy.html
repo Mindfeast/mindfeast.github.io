@@ -50,21 +50,18 @@
     color: var(--accent);
   }
 
+
   .logo-icon {
-    width: 32px;
-    height: 32px;
-    border: 1.5px solid var(--accent);
-    border-radius: 6px;
+    max-height: 3rem;
+    width: auto;
+    border: none;
+    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .logo-icon svg {
-    width: 16px;
-    height: 16px;
-    fill: var(--accent);
-  }
+  .logo-icon svg { width: 15px; height: 15px; fill: var(--accent); }
 
   main {
     max-width: 780px;
@@ -202,14 +199,7 @@
 
 <header>
   <div class="inner">
-    <div class="logo-icon">
-      <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-        <rect x="2" y="7" width="12" height="8" rx="1.5"/>
-        <path d="M5 7V5a3 3 0 0 1 6 0v2" stroke="#0a0a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <circle cx="8" cy="11" r="1.2" fill="#0a0a0a"/>
-      </svg>
-    </div>
-    <span class="logo">BUNKR</span>
+    <img src="icon.svg" alt="BUNKR" class="logo-icon" />
   </div>
 </header>
 
